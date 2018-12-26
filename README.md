@@ -6,10 +6,13 @@ We were provided with a Robot with an Aurdino Teensy LC board. The robot had fou
 the robot behaviour first. Next, a program needed to be developed to ensure robot goes in a straight line while avoiding any obstacle in 
 front. The robot was required to return to initial positon every time it avoided the onstacle.  
 
+<img src="Images/WhatsApp Image 2018-12-25 at 7.07.08 PM.jpeg" width="600">
 
 Second part of the project involved using a kinematic model of the robot on MatLab Simulink. The PID controller based model was run with
 propotional constants and initial distances. The same had to be programmed for the robot and see if the behavior of the model matched the 
 behavior of the robot.
+
+<img src="Images/Kinematic.png" width="600">
 
 ---
 ## Files
@@ -384,5 +387,8 @@ void loop() {
 ## Observation
 
 The robot was successfully programmed to meet the requirements. The robot seemed to duplicate the behavior as done by the simulink 
-model. 
+model.  
+
+<img src="Images/Robot.gif" width="600">
+
 
